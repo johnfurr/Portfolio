@@ -38,7 +38,14 @@ nav {
 }
 #hamburger {
     display: inline-block;
-    height: 15vh;
+}
+#hamburger:before,
+#hamburger:after {
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 0.25em 0;
+    background-color: black;
 }
 nav ul {
     position: absolute;
