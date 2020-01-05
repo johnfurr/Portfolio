@@ -2,12 +2,11 @@
 /* Base Styles */
 html {
     font-size: 15px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Roboto', sans-serif;
+    background: #1c1d25;
 }
 .sans, #hamburger,
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
 }
 /* Header Styles */
 header {
@@ -15,14 +14,20 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: grey;
-    height: 85vh;
+    background-color: ;
+    color: #fff;
+    height: 100vh;
 }
 header h1,
 header h2 {
-    font-size: 20vw;
     line-height: 1em;
-    margin: 0;
+    margin: 0.5em 0;
+}
+header h1 {
+    font-size: 9vw; 
+}
+header h2 {
+    font-size: 4vw;
 }
 header h1 span,
 header h2 span {
@@ -37,6 +42,9 @@ nav {
     align-items: center;
 }
 #hamburger {
+    color: #fff;
+    position: fixed;
+    bottom: 2em;
     display: inline-block;
 }
 #hamburger:before,
@@ -45,7 +53,7 @@ nav {
     display: block;
     height: 2px;
     margin: 0.25em 0;
-    background-color: black;
+    background-color: #fff;
 }
 nav ul {
     position: absolute;
