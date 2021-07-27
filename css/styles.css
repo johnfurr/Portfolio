@@ -8,6 +8,10 @@ html {
 .sans, #hamburger,
 h1, h2, h3, h4, h5, h6 {
 }
+a {
+    color: #fff;
+    text-transform: uppercase;
+}
 /* Header Styles */
 header {
     display: flex;
@@ -58,4 +62,7 @@ nav {
 nav ul {
     position: absolute;
     display: none;
+}
+section {
+    text-align: center;
 }
